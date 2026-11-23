@@ -3,5 +3,5 @@ import path from "path";
 
 app.on('ready', ()=> {
     const window = new BrowserWindow({});
-    window.loadFile(path.join(app.getAppPath(), "dist/index.html"))
+    window.loadFile(path.join(app.getAppPath(), "dist/renderer/index.html"))
 })
